@@ -76,13 +76,13 @@ em { color: #000; font-weight: 700 }
 #header_right { float: right; width: 600px;  display: block; text-align: right; }
 
 /* menu */
-#templatemo_menu { width: 600px; margin: 0 0 25px 0; text-align: right }
+#templatemo_menu { width: 800px; margin: 0 0 25px 0; text-align: right }
 #templatemo_menu ul { margin: 0; padding: 15px 0 0 0; list-style: none; }
 #templatemo_menu ul li { padding: 0; margin: 0; display: inline; }
 #templatemo_menu ul li a {
 	float: left;
 	display: block;
-	margin-right: 55px;
+	margin-right: 40px;
 	font-size: 14px;
 	color: #c7bca6;
 	text-decoration: none;
@@ -138,9 +138,13 @@ a.twitter { background: url(images/twitter.png) no-repeat center right }
 	background: url(images/templatemo_main.jpg) no-repeat center top;
 }
 
-.content_box { clear: both; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px dashed #333 }
+.content_box { clear: both; margin-bottom: 30px; padding-bottom: 30px; }
+.content_box2 { clear: both; margin-bottom: 30px; padding-bottom: 10px; border-bottom: 1px dashed #333;}
 .last_content_box { margin: 0; padding: 0; border: none }
 .col_w220 { float: left; width: 220px; margin-right: 20px; }
+.col_w221 { float: left; width: 300px; margin-right: 20px; }
+.col_w222 { float: left; width: 450px; margin-right: 20px; font-size: 15px;}
+
 
 .col_w700 {
 	float: left;
@@ -150,10 +154,17 @@ a.twitter { background: url(images/twitter.png) no-repeat center right }
 }
 
 .col_w460 {
+	font-size: 22px;
+	line-height: 1.1;
+	text-align: justify;
+	padding-bottom: 30px; border-bottom: 1px dashed #333;
+}
+.col_w461 {
 	float: left;
 	width: 440px;
 	padding-right: 20px;
 	margin-right: 20px;
+
 }
 
 .col_w300 {
@@ -163,7 +174,14 @@ a.twitter { background: url(images/twitter.png) no-repeat center right }
 	margin-right: 20px;
 }
 
-.last_col { margin: 0 }
+.col_w301 {
+	float: left;
+	width: 200px;
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+.last_col { margin: 0; border-bottom: 0px dashed #333 }
 
 #news_box { margin: 0; padding: 0; list-style: none; }
 #news_box li { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px dashed #333; }
